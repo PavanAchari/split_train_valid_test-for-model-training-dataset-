@@ -19,7 +19,7 @@ for label_path in labelsPath:
         # print(file)
         for line in lines:
             txt = line.split(' ')
-            txt[0] = '2'
+            txt[0] = '2' ## here you can modify the class ID in the quotes ''
             modData = ' '.join(txt)
             print(modData)
             newLine.write(modData+'\n')

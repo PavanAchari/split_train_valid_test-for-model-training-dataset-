@@ -19,8 +19,7 @@ for label_path in labelsPath:
         # print(file)
         for line in lines:
             txt = line.split(' ')
-            if txt[0] == '-1':
-                txt[0] = '1'
+            txt[0] = '2'
             modData = ' '.join(txt)
             print(modData)
             newLine.write(modData+'\n')

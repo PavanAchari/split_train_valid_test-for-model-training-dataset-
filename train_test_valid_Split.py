@@ -34,11 +34,11 @@ valData = dataset[valDataStart:valEndIndices]
 testDataStart = valEndIndices
 testData = dataset[valEndIndices:]
 outTrain = ""   ## here give a path where the train data going to copy/move
-		##make sure the path should be in the quotes ""
+		##make sure the path should be inside the quotes ""
 outValid = ""   ## here give a path where the valid data going to copy/move 
-		##make sure the path should be in the quotes ""
+		##make sure the path should be inside the quotes ""
 outTest = ""    ## here give a path where the test data going to copy/move 
-		##make sure the path should be in the quotes ""
+		##make sure the path should be inside the quotes ""
 os.system('mkdir "' + outTrain + '"')
 os.system('mkdir "' + outValid + '"')
 os.system('mkdir "' + outTest + '"')
